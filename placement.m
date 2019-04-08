@@ -11,7 +11,7 @@ function [nodes,t] = placement(P,numsensors,sorted)
 %   in priority order if "sorted" is true (by default is false).
 %
 %   Example:
-%      % Compute the five best nodes to place sensors from leak_data
+%      % Compute the five best nodes to place sensors from leak data
 %      data = load('HanoiData');
 %      sensors = PLACEMENT(data.P,5,true);
 %
